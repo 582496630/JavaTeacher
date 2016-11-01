@@ -81,9 +81,9 @@ public class ListDemo {
 			out.println(object);
 		}
 		
-		strList.clear();
+		/*strList.clear();
 		out.println("strList.clear() :");
-		out.println(strList);
+		out.println(strList);*/
 	}
 
 }
