@@ -1,5 +1,7 @@
 package com.ddb.javacore.ood2;
 
+import javax.imageio.ImageTypeSpecifier;
+
 import lombok.Getter;
 import lombok.Setter;
 @Getter@Setter
