@@ -1,11 +1,14 @@
 package com.ddb.javacore.ood2;
 
-import javax.imageio.ImageTypeSpecifier;
+import java.io.Serializable;
 
 import lombok.Getter;
 import lombok.Setter;
 @Getter@Setter
-public class Human implements Comparable<Human> {
+public class Human implements Serializable,Comparable<Human>  {
+
+	private static final long serialVersionUID = 1L;
+
 	private String id;
 	
 	private String name;
