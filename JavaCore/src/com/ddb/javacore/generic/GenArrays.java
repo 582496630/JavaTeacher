@@ -18,7 +18,7 @@ class GenArrays {
 		Double dg[] = { 1.1, 2.2, 3.3 };
 		gens[1] = new GenAr<Double>(11.1, dg);
 		System.out.println("泛型数组的第二个元素");
-		System.out.println(gens[1].ob);
+		System.out.println(gens[1].ob);	
 		for (Number ss : gens[1].vals)
 			System.out.println(ss);
 	}
